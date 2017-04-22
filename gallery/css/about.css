@@ -1,0 +1,248 @@
+/*about*/
+
+.about {
+	padding: 4em 0;
+}
+
+.about h1 {
+	font-size: 2.3em;
+	color: #73EAC4;
+	font-family: 'TitilliumWeb-Bold';
+	text-align: center;
+	font-weight: 600;
+}
+
+.about h2 {
+	color: #fd7364;
+	font-family: 'TitilliumWeb-Regular';
+	margin-top: 1em;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.about h4 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #333;
+	margin: 0.85em 0;
+	line-height: 1.6em;
+	font-family: 'TitilliumWeb-Regular';
+}
+
+.about_top p {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.7em;
+}
+
+.about .row {
+	margin-top: 2em;
+}
+
+.about_pic {
+	padding-right: 6em;
+}
+
+.about .col-sm-6 ul li {
+	list-style-image: url(../img/icon2.png);
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.about .col-sm-6 ul li a {
+	color: #9A9598;
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+.about .col-sm-6 ul li a:hover {
+	color: #FD7364;
+	padding-left: 1em;
+}
+
+
+/*offer*/
+
+.what_offer {
+	background: url(../img/abt-bg.jpg)no-repeat 0 0;
+	background-size: cover;
+	min-height: 730px;
+	padding-top: 2em;
+	margin: 3em 0 0 0;
+}
+
+.what_offer h2 {
+	text-align: center;
+	color: #fff;
+	margin-top: 1em;
+	font-family: 'TitilliumWeb-Bold';
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.what_offer label {
+	display: block;
+	background-color: #fff;
+	margin: 2em auto;
+	height: 1px;
+	width: 30%;
+}
+
+.what_offer .row {
+	margin-top: 4em;
+}
+
+.glyphicon-remove-circle:before,
+.glyphicon-flag:before,
+.glyphicon-file:before,
+.glyphicon-cutlery:before,
+.glyphicon-search:before,
+.glyphicon-plane:before {
+	color: #fff;
+	font-size: 3em;
+}
+
+.what_offer .col-sm-4 {
+	text-align: center;
+}
+
+.what_offer .col-sm-4 h4 {
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 5px;
+	font-family: 'TitilliumWeb-Bold';
+}
+
+i.strp {
+	display: block;
+	background: #fff;
+	margin: 1em auto;
+	height: 1px;
+	width: 25%;
+}
+
+.what_offer .col-sm-4 p {
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 1.7em;
+	margin: 8px 0;
+}
+
+
+/*team*/
+
+.team {
+	padding-top: 3em;
+}
+
+.team-top h1 {
+	font-size: 2.3em;
+	color: #73EAC4;
+	font-family: 'TitilliumWeb-Bold';
+	text-align: center;
+	font-weight: 600;
+}
+
+.team .row {
+	margin-top: 2em;
+}
+
+.team .col-sm-4 {
+	overflow: hidden;
+	padding-left: 3em;
+}
+
+.wrap {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.wrap_green {
+	background: rgba(0, 100, 0, 0.6);
+}
+
+.wrap_red {
+	background: rgba(200, 0, 0, 0.6);
+}
+
+.wrap_blue {
+	background: rgba(0, 0, 100, 0.6);
+}
+
+.box {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.box>div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.back {
+	transform: rotate3d(0, 1, 0, 180deg);
+	-webkit-transform: rotate3d(0, 1, 0, 180deg);
+	-moz-transform: rotate3d(0, 1, 0, 180deg);
+	-o-transform: rotate3d(0, 1, 0, 180deg);
+	-ms-transform: rotate3d(0, 1, 0, 180deg);
+	color: #fff;
+}
+
+.wrap_blue .back {
+	background: #2AABD2;
+}
+
+.wrap_green .back {
+	background: lightgreen;
+}
+
+.wrap_red .back {
+	background: darksalmon;
+}
+
+.back h2 {
+	position: absolute;
+	text-align: center;
+	top: 10px;
+	left: 40px;
+}
+
+.back p {
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	text-align: center;
+}
+
+.wrap:hover .box {
+	transform: rotate3d(0, 1, 0, -180deg);
+	-webkit-transform: rotate3d(0, 1, 0, -180deg);
+	-moz-transform: rotate3d(0, 1, 0, -180deg);
+	-o-transform: rotate3d(0, 1, 0, -180deg);
+	-ms-transform: rotate3d(0, 1, 0, -180deg);
+}

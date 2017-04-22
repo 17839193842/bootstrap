@@ -1,0 +1,44 @@
+.typography {
+	padding: 2em;
+}
+
+.typ_top h1 {
+	font-size: 2.3em;
+	color: #73EAC4;
+	font-family: 'TitilliumWeb-Bold';
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 2em;
+}
+
+.typ_content {
+	color: #aaa;
+}
+
+.typography p {
+	margin-top: 1.5em;
+}
+
+.Badges .badge-primary {
+	background-color: #03a9f4;
+}
+
+.Badges .badge-success {
+	background-color: #8bc34a;
+}
+
+.Badges .badge-warning {
+	background-color: #ffc107;
+}
+
+.Badges .badge-danger {
+	background-color: #e51c23;
+}
+
+.input-group {
+	margin-top: 1em;
+}
+
+.input-group .caret {
+	margin-left: 0.5em;
+}

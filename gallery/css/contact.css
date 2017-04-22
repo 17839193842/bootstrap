@@ -1,0 +1,88 @@
+.contact {
+	padding: 2em;
+}
+
+.contact h1 {
+	font-size: 2.3em;
+	color: #73EAC4;
+	font-family: 'TitilliumWeb-Bold';
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 2em;
+}
+
+.contact .row {
+	margin-top: 0.6em;
+}
+
+.contact .col-sm-4 span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fd7364;
+	font-size: 1.9em;
+	position: relative;
+}
+
+.contact .col-sm-4 p {
+	color: #999;
+	font-size: 1em;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 18px;
+	width: 54%;
+	line-height: 1.5em;
+}
+
+.contact .col-sm-8 input[type="text"] {
+	width: 49%;
+	color: #999999;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	padding: 10px 15px;
+	margin-bottom: 1em;
+	border: solid 1px #D5D4D4;
+	-webkit-appearance: none;
+	font-weight: 600;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+}
+
+.contact .col-sm-8 textarea {
+	resize: none;
+	width: 100%;
+	margin: 0 auto;
+	color: #999999;
+	font-size: 13px;
+	outline: none;
+	padding: 15px 15px;
+	border: solid 1px #D5D4D4;
+	min-height: 13em;
+	-webkit-appearance: none;
+	font-weight: 600;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+}
+
+.contact .col-sm-8 input[type="submit"] {
+	border: solid 1px #fd7364;
+	outline: none;
+	color: #fd7364;
+	padding: 10px 36px;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 1.5em;
+	letter-spacing: 1px;
+	-webkit-appearance: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.contact .col-sm-8 input[type="submit"]:hover {
+	background: #fd7364;
+	border: solid 1px #fd7364;
+	transition: 0.5s all;
+	color: #fff;
+	-webkit-transition: 0.5s all;
+}
