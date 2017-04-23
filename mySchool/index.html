@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Home</title>
+		<link href="img/favicon.ico" rel="shortcut icon">
+		<!--引入css样式-->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		<!--头部导航-->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#collapseContent">
+						<span class="sr-only">toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" style="color:orangered;font-size:20px;" class="navbar-brand">我的青春校园</a>
+				</div>
+				<div class="collapse navbar-collapse" id="collapseContent">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="introduce.html">学校简介</a></li>
+						<li><a href="views.html">校园风光</a></li>
+						<li class="dropdown">
+							<a href="culture.html" class="dropdown-toggle" data-toggle="dropdown">校园文化
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="culture.html">culture One</a></li>
+								<li><a href="culture.html">culture Two</a></li>
+								<li><a href="culture.html">culture Three</a></li>
+								<li><a href="culture.html">culture Four</a></li>
+								<li class="divider"></li>
+								<li><a href="culture.html">culture Five</a></li>
+								<li><a href="culture.html">culture Six</a></li>
+							</ul>
+						</li>
+						<li><a href="life.html">校园生活</a></li>
+						<li class="dropdown">
+							<a href="travel1.html" class="dropdown-toggle" data-toggle="dropdown">Travel
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="travel1.html">travel1</a></li>
+								<li class="divider"></li>
+								
+							</ul>
+						</li>
+						<li><a href="training.html">军训生活</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<div class="input-group">
+							<input type="text" class="form-control" value="搜索一下" onfocus="this.value=' ';" onblur="if(this.value==' '){this.value='搜索一下';}">
+						</div>
+						<button class="btn btn-success" type="button">确定</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!--轮播-->
+		<div class="carousel slide" id="myCarousel">
+			<!--indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+	
+			</ol>
+			<!--inner-->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/image1/n3.jpg" style="width:1400px;height:500px;" class="img-responsive center-block">
+					<div class="carousel-caption">
+						<h3>图书馆</h3>
+						<p>安阳工学院图书馆建馆于1984年，前身为安阳大学图书馆，当前馆舍面积28000平方米，为五层建筑。建馆近30年来，图书馆经历了从小到大、
+							从以纯纸型文献到各介质文献并重、从以单一的图书借阅到综合服务等方面的转变，现在已经发展为我校的文献信息中心。</p>
+					</div>
+				</div>
+				
+				<div class="item">	
+					<img src="img/image1/n2.jpg" style="width:1400px;height:500px;" class="img-responsive center-block">
+					<div class="carousel-caption">
+						<h3>明德湖</h3>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/image1/thumb.jpg" style="width:1400px;height:500px;" class="img-responsive center-block">
+					<div class="carousel-caption">
+						<h3>教学楼</h3>
+						<p>安阳工学院的教学楼，采取统一的建筑格式，坐落于美丽的至善湖旁边，给同学们提供了一个良好的学习环境。</p>
+					</div>
+				</div>
+				
+			</div>
+			<!--controls-->
+			<a href="#myCarousel" class="carousel-control left" data-slide="prev">
+				<span class="sr-only">previous</span>
+				<span class="glyphicon glyphicon-chevron-left">
+					
+				</span>
+			</a>
+			<a href="#myCarousel" class="carousel-control right" data-slide="next">
+				<span class="sr-only">next</span>
+				<span class="glyphicon glyphicon-chevron-right">
+					
+				</span>
+			</a>
+		</div>
+		<!--gallery-->
+		<div class="gallery">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<img src="img/carousel1.jpg" class="img-responsive">
+						<div class="text-center">
+							<span class="glyphicon glyphicon-home">
+								
+							</span>
+							<h4>Lorem ipsum</h4>
+							<p>
+								Lorem ipsum dolor sit amet,
+								 consectetur adipisicing elit, 
+								 sed do eiusmod 
+								 tempor incididunt ut labore 
+								sed do eiusmod tempor
+								 incididunt ut labore
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<img src="img/carousel2.jpg"  class="img-responsive">
+						<div class="text-center">
+							<span class="glyphicon glyphicon-leaf">
+								
+							</span>
+							<h4>Lorem ipsum</h4>
+							<p>
+								Lorem ipsum dolor sit amet,
+								 consectetur adipisicing elit, 
+								 sed do eiusmod 
+								 tempor incididunt ut labore 
+								sed do eiusmod tempor
+								 incididunt ut labore
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<img src="img/carousel3.jpg" class="img-responsive">
+						<div class="text-center">
+							<span class="glyphicon glyphicon-phone">
+								
+							</span>
+							<h4>Lorem ipsum</h4>
+							<p>
+								Lorem ipsum dolor sit amet,
+								 consectetur adipisicing elit, 
+								 sed do eiusmod 
+								 tempor incididunt ut labore 
+								sed do eiusmod tempor
+								 incididunt ut labore
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<img src="img/carousel4.jpg" class="img-responsive">
+						<div class="text-center">
+							<span class="glyphicon glyphicon-magnet">
+								
+							</span>
+							<h4>Lorem ipsum</h4>
+							<p>
+								Lorem ipsum dolor sit amet,
+								 consectetur adipisicing elit, 
+								 sed do eiusmod 
+								 tempor incididunt ut labore 
+								sed do eiusmod tempor
+								 incididunt ut labore
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--校园部落介绍-->
+		<div class="container">
+			<h1>校园部落介绍</h1>
+		    <ul class="nav nav-pills">
+		    	<li class="active"><a href="#tab3" data-toggle="tab">图书馆</a></li>
+		    	<li ><a href="#tab1" data-toggle="tab">行政楼</a></li>
+		    	<li><a href="#tab2" data-toggle="tab">旭日花园</a></li>
+		    	
+		    	<li><a href="#tab4" data-toggle="tab">至善湖</a></li>
+		    	<li><a href="#tab5" data-toggle="tab">年轮广场</a></li>
+		    	<li><a href="#tab6" data-toggle="tab">桥</a></li>
+		    	<li><a href="#tab7" data-toggle="tab">求索广场</a></li>
+		    	<li><a href="#tab8" data-toggle="tab">五行门</a></li>
+		    	<li><a href="#tab9" data-toggle="tab">明德湖</a></li>
+		    </ul>
+		    <div class="tab-content">
+		    	<div class="tab-pane fade  in active" id="tab3">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal11" data-toggle="modal"><img src="img/image2/26hh46fuzv.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">图书馆</h3>
+		            	<p>
+		            		安阳工学院图书馆建馆于1984年，前身为安阳大学图书馆，当前馆舍面积28000平方米，为五层建筑。
+		            		建馆近30年来，图书馆经历了从小到大、从以纯纸型文献到各介质文献并重、
+		            		从以单一的图书借阅到综合服务等方面的转变，现在已经发展为我校的文献信息中心。
+		            	</p>
+		            	<h5 class="page-header">
+		            		馆藏特色
+		            	</h5>
+		            	<p>
+		            		图书馆自1984年建馆以来，几经搬迁，在领导和本馆职工的共同努力下，
+		            		现已初具规模，形成了以机械、化工、电气、自动化、建筑、管理、经贸等专业图书为特色的藏书体系。
+		            		在理工类工具书建设方面也初具特色。
+		            		图书馆同时藏有《四库全书》一套，供读者参阅。
+		            	</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab1">
+		    	<div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal12" data-toggle="modal"><img src="img/image2/1yb5v5kuyk.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">行政楼</h3>
+		            	<p>行政楼位于学校大门东侧，主要负责后勤工作。</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab2">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal13" data-toggle="modal"><img src="img/image2/2iifowjuz0.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">旭日花园</h3>
+		            	<p>
+		            		旭日花园，属于安阳工学院的一个花园，位于学校大门东侧，一个美丽而漂亮的花园。
+		            		每到春季，花园里漂亮极了。
+		            	</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    
+		    <div class="tab-pane fade" id="tab4">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal14" data-toggle="modal"><img src="img/image2/2brv2yxuz7.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">至善湖</h3>
+		            	<p>至善湖,位于图书馆前面，对着图书馆,湖水清澈见底,湖设计的很漂亮。</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab5">
+		       <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal15" data-toggle="modal"><img src="img/image2/2dp859yv00.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">年轮广场</h3>
+		            	<p>
+		            		年轮广场,位于图书馆正前面,是圆形,像年轮一样,故取名叫年轮广场。
+		            		经常会有喷泉在这里喷出。
+		            	</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab6">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal16" data-toggle="modal"><img src="img/image2/2lls12ruzo.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">桥</h3>
+		            	<p>此桥位于至善湖中间,设计的非常有意境.</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab7">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal17" data-toggle="modal"><img src="img/image2/2x0d6jluyv.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">求索广场</h3>
+		            	<p>求索广场，位于老图书馆前面，设计的非常好.</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab8">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal18" data-toggle="modal"><img src="img/image2/2z7s66qv0d.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">五行门</h3>
+		            	<p>五行门,位于年轮广场旁边。</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    <div class="tab-pane fade" id="tab9">
+		        <div class="row">
+		    		<div class="col-sm-6">
+		              <a href="#modal19" data-toggle="modal"><img src="img/image2/27c6qhmv05.png" class="img-responsive"></a>
+		            </div>
+		            <div class="col-sm-6">
+		            	<h3 class="page-header">明德湖</h3>
+		            	<p>
+		            		明德湖,正对着大门口,此湖为学校的第二个湖。
+		            	</p>
+		            </div>
+		            <div class="clearfix"></div>
+		    	</div>
+		    </div>
+		    </div>
+		</div>
+		<!--模态框-->
+		<div class="modal fade" id="modal11">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/26hh46fuzv.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal12">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/1yb5v5kuyk.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal13">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/2iifowjuz0.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal14">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/2brv2yxuz7.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal15">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/2dp859yv00.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal16">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/2lls12ruzo.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal17">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/2x0d6jluyv.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal18">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/2z7s66qv0d.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal19">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">
+						&times;
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/image2/27c6qhmv05.png" class="img-responsive center-block">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Blogs-->
+		<div class="container" id="contanier">
+			<h1>Blogs(<code>另加内容</code>)</h1>
+			<div class="row">
+				<div class="col-sm-6 blue">
+					<img src="img/blo1.jpg" class="img-responsive">
+					<div>
+						<span>4/20/2017</span>
+						<a>Blog Post Title1</a>
+					</div>
+				  </div>
+				<div class="col-sm-6 black">
+					<img src="img/blog2.jpg" class="img-responsive">
+				<div>
+						<span>4/21/2017</span>
+						<a>Blog Post Title2</a>
+					</div>
+				</div>
+				<div class="clearfix">
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 green">
+					<h3>Loream Ipsum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur
+						 adipiscing elit, sed do eiusmod tempor 
+						 incididunt ut labore et dolore magna aliqua.
+						 Ut enim ad minim veniam, quis nostrud.</p>
+						<a href="#modal21" data-toggle="modal">Read More 
+						<span class="glyphicon glyphicon-arrow-right"></span>
+						</a> 
+				  </div>
+				<div class="col-sm-6 red">
+					
+					<h3>Loream Ipsum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur
+						 adipiscing elit, sed do eiusmod tempor 
+						 incididunt ut labore et dolore magna aliqua.
+						 Ut enim ad minim veniam, quis nostrud.</p>
+						<a href="#modal22" data-toggle="modal">Read More 
+						<span class="glyphicon glyphicon-arrow-right"></span>
+						</a> 
+				 
+				</div>
+				<div class="clearfix">
+					
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-sm-6 black">
+					<img src="img/blog2.jpg" class="img-responsive">
+				<div>
+						<span>4/22/2017</span>
+						<a>Blog Post Title3</a>
+					</div>
+				</div>
+				<div class="col-sm-6 blue">
+					<img src="img/blo1.jpg" class="img-responsive">
+					<div>
+						<span>4/23/2017</span>
+						<a>Blog Post Title4</a>
+					</div>
+				  </div>
+				<div class="clearfix">
+					
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal21">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						BLOG POST
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/modelimg.jpg" class="img-responsive">
+					</div>
+					<div class="modal-footer">
+					<p>Lorem ipsum dolor sit amet, Sed ut perspiciatis
+					 unde omnis iste natus error sit voluptatem ,
+          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium, totam rem aperiamconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					 labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal22">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						BLOG POST
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/modelimg.jpg" class="img-responsive">
+					</div>
+					<div class="modal-footer">
+					<p>Lorem ipsum dolor sit amet, Sed ut perspiciatis
+					 unde omnis iste natus error sit voluptatem ,
+          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium, totam rem aperiamconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					 labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--contact Us-->
+		<div class="contact">
+			<div class="container">
+				<h1>Contact Us</h1>
+				<div class="input-group">
+						<input type="text" value="Name" class="form-control"
+							onfocus="this.value=' ';" onblur="if(this.value==' '){this.value='Name';}">
+						<span class="input-group-btn">
+							<button class="btn btn-success">确定</button>
+						</span>
+			    </div>
+			    <div class="input-group">
+						<input type="text" value="Email" class="form-control"
+							onfocus="this.value=' ';" onblur="if(this.value==' '){this.value='Email';}">
+						<span class="input-group-btn">
+							<button class="btn btn-success">确定</button>
+						</span>
+			    </div>
+			    <div class="input-group">
+						<input type="text" value="Tell-phone" class="form-control"
+							onfocus="this.value=' ';" onblur="if(this.value==' '){this.value='Tell-phone';}">
+						<span class="input-group-btn">
+							<button class="btn btn-success">确定</button>
+						</span>
+			    </div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<p class="text-center">@安阳工学院</p>
+		</div>
+		<a href="#top" id="toTop"><span class="glyphicon glyphicon-arrow-up"></span></a>
+		<!--引入js脚本-->
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script>
+		<script>
+			$(window).scroll(function() {
+            // 当滚动到最底部以上500像素时， 向上箭头显示
+            if ($(this).scrollTop() >= 500) {
+                $("#toTop").css("display","block");
+             }else{
+               $("#toTop").css("display","none");
+           }
+        });
+		</script>
+	</body>
+</html>
